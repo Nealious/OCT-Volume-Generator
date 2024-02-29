@@ -12,5 +12,5 @@ This project is the culmination of my acquired knowledge from SBME's Optical Lin
 Thats it, you have a manipulable 3D volume that can be used for diagnoses.
 
 ## Results
-![En-Face](enface.png) ![B-Scan](B-scan.png)
+![En-Face](enface.png) ![B-Scan](B-Scan.png)
 
