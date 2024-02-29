@@ -7,8 +7,10 @@ This project is the culmination of my acquired knowledge from SBME's Optical Lin
 3. By default the code will create an OCT_Vol_Uncorrected.mat file, and a OCT_Vol_Corrected.tiff file.
 4. The tiff stack can be viewed using a standard tiff viewer like ImageJ.
 5. To view the tiff stack using ImageJ open the file and navigate to plugins > 3D > Volume Viewer. (If your copy of ImageJ doesn't include volume viewer you can separately install it following the instructions under the ImageJ web guide)
+6. If you want to view the volume in matlab use this command after running the main code: "sliceViewer(mat2gray(20.*log10(abs(OCT_tcorr_fit))));"
 
 Thats it, you have a manipulable 3D volume that can be used for diagnoses.
 
 ## Results
-![alt text]
+![En-Face](enface.png) ![B-Scan](B-scan.png)
+
